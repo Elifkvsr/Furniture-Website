@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iletişim.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="website icon" type="png"
+        href="https://e7.pngegg.com/pngimages/687/11/png-clipart-tufted-purple-padded-rolled-arm-sofa-table-chair-couch-furniture-modern-furniture-purple-furniture-thumbnail.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ESER Mobilya</title>
+</head>
+
+<body>
+    <div class="header" id="home">
+        <div class="main">
+            <div class="container">
+                <div class="navigation">
+                    <button class="hamburger" onclick="show()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </button>
+                    <nav>
+                        <ul>
+
+
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html"> About</a></li>
+                            <li><a href="blog.html"> Blog</a>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="iletişim.html">Communication</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="socials-icons">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="iletişim-container">
+                <img class="logos" src="./images/logos.png" alt="">
+            </div>
+
+            <div class="harita-container">
+                <div class="harita">
+                    <iframe class="test-harita"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25629.15231615231!2d36.33073466844113!3d36.89390482619416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152f03a9c6e6d58d%3A0x9d6653dff6a5167a!2sGaziantep!5e0!3m2!1str!2str!4v1717867490548!5m2!1str!2str"
+                        allowfullscreen loading="lazy">
+                    </iframe>
+                </div>
+                <div class="kutu">
+                    <img src="./images/kutu.png" alt="">
+                    <div class="kutu-yazi">
+                        <h2>YOL TARİFİ AL</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="header1" id="contact">
+                <h1>ESER MOBLE</h1>
+                <br>
+                <p>Eşsiz <span style="color: rgb(201, 139, 23);">Eser</span>'ler için <br> İletişime Geçin..</p>
+            </div>
+
+            <div class="adres">
+
+                <div class="contact-info">
+                    <p> ADRES
+                        <br>
+                        <br>
+                        Güvenevler Mahallesi 2 Notu Cadde<br>
+                        No:19 Şehitkamil / GAZİANTEP
+                    </p>
+                </div>
+
+                <div class="mail full-width">
+                    <p>MAIL <br> <br>info@esermoble.com.tr</p>
+                </div>
+            </div>
+            <div class="calls">
+                <p>TELEFON</p>
+                <br>
+                <p> 0 342 321 34 34</p>
+                <p> 0 342 321 35 35</p>
+            </div>
+
+            <div class="social-media">
+                <h1>Sosyal</h1>
+                <p><i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </p>
+            </div>
+
+
+            <form class="contact-form">
+                <h1 class="formm">Bağlantı Kurun</h1>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label>Adınız Soyadınız</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>E-Posta Adresiniz</label>
+                    <input type="email">
+                </div>
+
+                <div class="form-group full-width">
+                    <label>Mesajınız</label>
+                    <textarea rows="6"></textarea>
+                </div>
+
+                <button class="submit" type="submit">GÖNDER</button>
+            </form>
+        </footer>
+        <div class="copyright">
+            © 2025 Tüm hakları saklıdır.
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer>cx0 </script>
+</body>
+
+</html>
